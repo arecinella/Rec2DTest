@@ -222,7 +222,7 @@ GameObject:
   - component: {fileID: 946359918}
   - component: {fileID: 946359919}
   m_Layer: 0
-  m_Name: Top
+  m_Name: Top0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
