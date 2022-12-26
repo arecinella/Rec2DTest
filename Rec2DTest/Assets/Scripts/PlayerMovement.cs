@@ -18,12 +18,14 @@ public class PlayerMovement : MonoBehaviour
     }
 
     private void FixedUpdate(){
-       //test number thirty two
-       if (movement.x !=0 || movement.y !=0){
- rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
-       }
+        //test number thirty two
+        if (movement.x !=0 || movement.y !=0){
+            //rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
+            //rb.velocity = movement * speed;
+            rb.AddForce(movement * speed);
+        }
   
-    //  rb.velocity = movement + speed;
+    
 
     }
 }
